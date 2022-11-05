@@ -3,8 +3,8 @@
 #
 cmake_minimum_required (VERSION 3.20)
 
-project ("C++_CMAKE_Learning")
+project ("Kami")
 
 # Include sub-projects.
-add_subdirectory ("app")
-add_subdirectory ("engine")
+add_subdirectory ("kami")
+add_subdirectory ("kamiEngine")

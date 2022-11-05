@@ -4,7 +4,7 @@
 cmake_minimum_required (VERSION 3.20)
 
 # Add source to this project's executable.
-add_executable (app "main.cpp")
+add_executable (app "./src/main.cpp")
 set_property(TARGET app PROPERTY CXX_STANDARD 20)
 
 target_include_directories(app PRIVATE engine)

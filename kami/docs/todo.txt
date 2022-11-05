@@ -1,0 +1,2 @@
+work a bit on the folder structure and get it to compile
+some compilation error with strange things in xmemory that looks to be becuase of the pure virtual function 

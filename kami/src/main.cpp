@@ -1,6 +1,7 @@
 ﻿
 //context is the current opengl state 
 #include <engine/Engine.hpp>
+#include <random/KamiRandom.hpp>
 #include <iostream>
 
 
@@ -22,7 +23,7 @@ int main()
 	std::cout << std::filesystem::current_path() << std::endl;
 
 	KamiShader kamiShader;
-	kamiShader.createShaderProgram("program", "..\\..\\..\\..\\engine\\shader\\vertex.vert", "..\\..\\..\\..\\engine\\shader\\fragment.frag");
+	kamiShader.createShaderProgram("program", "..\\..\\..\\..\\kamiEngine\\shader\\vertex.vert", "..\\..\\..\\..\\kamiEngine\\shader\\fragment.frag");
 
 	glEnable(GL_DEPTH_TEST);
 	glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
@@ -54,14 +55,14 @@ int main()
 
 	//create and generate texture
 	KamiTexture containerTexture;
-	containerTexture.readTexture("..\\..\\..\\..\\engine\\texture\\container.jpg"); //modifies object state
+	containerTexture.readTexture("..\\..\\..\\..\\kami\\assets\\texture\\container.jpg"); //modifies object state
 	containerTexture.createTexture();//3 below modify opengl state
 	containerTexture.bindTexture(0);
 	containerTexture.generateTexture();
 
 
 	KamiTexture animeGirl;
-	containerTexture.readTexture("..\\..\\..\\..\\engine\\texture\\example-72478.jpg"); //modifies object state
+	containerTexture.readTexture("..\\..\\..\\..\\kami\\assets\\texture\\wise.jpg"); //modifies object state
 	containerTexture.createTexture();//3 below modify opengl state
 	containerTexture.bindTexture(1);
 	containerTexture.generateTexture();
