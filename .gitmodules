@@ -1,3 +1,3 @@
-[submodule "engine"]
-	path = engine
+[submodule "kamiEngine"]
+	path = kamiEngine
 	url = https://github.com/kami0xff/KamiEngine
