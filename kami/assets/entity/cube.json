@@ -1,0 +1,78 @@
+{
+  "entityName": "Cube",
+  "components": [
+    {
+      "componentName": "PositionComponent",
+      "position": [ 1, 2, 3]
+    },
+    {
+      "componentName": "CubeVertexDataComponent"
+    },
+    {
+      "componentName": "ShaderComponent",
+      "shaderProgramName": "cubeShader",
+      "uniforms": [
+        {
+          "uniformName": "",
+          "uniformType": ""
+        }
+      ]
+    },
+    {
+      "componentName": "OpenglRenderComponent",
+      "vertexAttributes": [
+        {
+          "attributeName": "position",
+
+          "index": 0,
+          "size": 3,
+          "type": 5126,
+          "normalized": 0,
+          "stride": 5,
+          "pointer": 0
+
+        },
+        {
+          "attributeName": "textureUV",
+          "index": 1,
+          "size": 2,
+          "type": 5126,
+          "normalized": 0,
+          "stride": 5,
+          "pointer": 3
+        }
+      ]
+    },
+    {
+      "componentName": "TextureComponent",
+      "textures": [
+        {
+          "textureUnit": 0,
+          "textureName": "wise.jpg",
+          "textureSampler": "texture0"
+        },
+        {
+          "textureUnit": 1,
+          "textureName": "container.jpg",
+          "textureSampler": "texture1"
+        }
+      ]
+    },
+    {
+      "componentName": "TransformComponent",
+      "uniforms": [
+        {
+          "uniformName": "model"
+        },
+        {
+          "uniformName": "view"
+        },
+        {
+          "uniformName": "projection"
+        }
+      ]
+    }
+  ]
+}
+
+

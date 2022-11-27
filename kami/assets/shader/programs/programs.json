@@ -1,0 +1,11 @@
+{
+  "programs": [
+    {
+      "programName" :  "cubeShader",
+      "vertexShaderFileName" : "vertex.vert",
+      "fragmentShaderFileName" :  "fragment.frag"
+    }
+
+
+  ]
+}

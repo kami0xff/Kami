@@ -1,0 +1,13 @@
+{
+  "entityName": "playerCharacter",
+  "components": [
+    {
+      "componentName": "position",
+      "position": [ 2, 2, 2 ]
+    },
+    {
+      "componentName": "test",
+      "text": "test text component"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string value="Alert" id="IDS_ALERT"/>
+	<string value="Question" id="IDS_QUESTION"/>
+	<string value="Initializing" id="IDS_INITIALIZING"/>
+	<string value="Ok" id="IDS_OK"/>
+	<string value="Yes" id="IDS_YES" hotkey="Y"/>
+</strings>
